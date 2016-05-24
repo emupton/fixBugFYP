@@ -1,0 +1,13 @@
+<fix name="FILEresourceleak">
+	<insert>
+	<rawstring>
+		fclose(
+	</rawstring>
+	<instanceSpecificValue>
+		IDENTIFIER
+	</instanceSpecificValue>
+	<rawstring>
+		);
+	</rawstring>
+	</insert>
+</fix>

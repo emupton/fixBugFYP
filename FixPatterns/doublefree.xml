@@ -1,0 +1,7 @@
+<fix name="memoryleak">
+	<delete>
+	<instanceSpecificValue>
+		ENTIRE_LINE
+	</instanceSpecificValue>
+	</delete>
+</fix>

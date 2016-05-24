@@ -1,0 +1,25 @@
+<fix name="stringequalityfix">
+	<replace>
+	<instanceSpecificValue>
+		PRE_EXPRESSION
+	</instanceSpecificValue>
+	<rawstring>
+		strcmp(
+	</rawstring>
+	<instanceSpecificValue>
+		IDENTIFIER
+	</instanceSpecificValue>
+	<rawstring>
+		 , 
+	</rawstring>
+	<instanceSpecificValue>
+		SECONDARY_IDENTIFIER
+	</instanceSpecificValue>
+	<rawstring>
+		)
+	</rawstring>
+	<instanceSpecificValue>
+		POST_EXPRESSION
+	</instanceSpecificValue>
+	</replace>
+</fix>

@@ -1,0 +1,22 @@
+<fix name="malloctypemismatch">
+	<replace>
+		<instanceSpecificValue>
+			TYPE
+		</instanceSpecificValue>
+		<rawstring>
+			 " *"
+		</rawstring>
+		<instanceSpecificValue>
+			 IDENTIFIER 
+		</instanceSpecificValue>
+		<rawstring>
+			 = malloc(sizeof(
+		</rawstring>
+		<instanceSpecificValue>
+			TYPE
+		</instanceSpecificValue>
+		<rawstring>
+			));
+		</rawstring>
+	</replace>
+</fix>

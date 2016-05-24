@@ -1,0 +1,13 @@
+<fix name="memoryleak">
+	<insert>
+		<rawstring>
+			free(
+		</rawstring>
+		<instanceSpecificValue>
+			IDENTIFIER
+		</instanceSpecificValue>
+		<rawstring>
+			);
+		</rawstring>
+	</insert>
+</fix>
